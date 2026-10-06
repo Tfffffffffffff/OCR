@@ -1,0 +1,86 @@
+# ---------- Secrets / infos personnelles ----------
+.env
+.env.*
+*.pem
+*.key
+*.p12
+id_rsa*
+id_ed25519*
+*.secret
+secrets.*
+credentials*
+.netrc
+.ssh/
+.gnupg/
+.aws/
+
+# ---------- Historiques / configs shell ----------
+.bash_history
+.zsh_history
+.viminfo
+.lesshst
+.gdb_history
+.python_history
+.bashrc
+.zshrc
+.gitconfig
+
+# ---------- Éditeurs / IDE (chemins et noms locaux) ----------
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+.clangd/
+.cache/
+compile_commands.json
+tags
+cscope.*
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.Trash-*
+.directory
+
+# ---------- Compilation C (interdits par le sujet) ----------
+*.o
+*.obj
+*.a
+*.so
+*.d
+*.out
+*.exe
+*.gch
+solver
+ocr
+main
+build/
+bin/
+obj/
+
+# ---------- Debug / profilage ----------
+core
+core.*
+vgcore.*
+*.log
+callgrind.out.*
+massif.out.*
+gmon.out
+perf.data*
+*.dSYM/
+
+# ---------- Fichiers temporaires / sorties de tests ----------
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+output/
+out/
+letters_out/
